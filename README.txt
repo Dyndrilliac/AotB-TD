@@ -12,7 +12,19 @@ Tested Devices: Samsung Intercept (Android 2.2.3 Froyo), HTC Evo 3D (Android 4.0
 Thank you for checking out Attack of the Barbarians!
 
 ///////////////////////////////////////////
-Game Instructions
+Game Instructions (Downloading/Installing)
+///////////////////////////////////////////
+
+Want to try the game without building it from the source code?
+
+<a href="https://dl.dropboxusercontent.com/u/26912774/AotB.apk">Download APK</a>
+
+You will need to make sure that the check box labelled "Allow applications from unknown sources" is check in order to install the 
+package. Most Android handsets come with a package installer application. Otherwise you can get one off of the market for free. The
+Dropbox application for Android will also allow you to install the APK if you download it to your phone from your Dropbox folder.
+
+///////////////////////////////////////////
+Game Instructions (Playing)
 ///////////////////////////////////////////
 
 The game begins immediately as soon as you open the application. The very top portion of the interface is a heads-up display (HUD)
@@ -68,17 +80,17 @@ build the package from the source code! In order to save space and make the sour
 things you will need are not included in this ZIP archive!
 
 Download/Install:
-1) Eclipse IDE, latest version. http://www.eclipse.org
-2) Andoird SDK, latest  version. https://developer.android.com/sdk/index.html
+<a href="http://www.eclipse.org">1) Eclipse IDE, latest version.</a>
+<a href="https://developer.android.com/sdk/index.html">2) Android SDK, latest  version.</a>
 3) Android Developer Tools for Eclipse (Available for free from the Eclipse Marketplace inside Eclipse: "Help" Menu -> "Eclipse Marketplace...")
-4) Some kind of Git client (EGit, GitHub, etcetera) https://github.com/
+<a href="https://github.com/">4) Some kind of Git client (EGit, GitHub, etcetera).</a>
 
 Once everything is downloaded and installed, clone the repositories for AndEngine and the two extensions I'm using from 
 the links provided below.
 
-AndEngine https://github.com/nicolasgramlich/AndEngine
-PhysicsBox2DExtension https://github.com/nicolasgramlich/AndEnginePhysicsBox2DExtension
-TMXTiledMapExtension https://github.com/nicolasgramlich/AndEngineTMXTiledMapExtension
+<a href="https://github.com/nicolasgramlich/AndEngine"></a>
+<a href="https://github.com/nicolasgramlich/AndEnginePhysicsBox2DExtension">PhysicsBox2DExtension</a>
+<a href="https://github.com/nicolasgramlich/AndEngineTMXTiledMapExtension">TMXTiledMapExtension</a>
 
 Import them into Eclipse by going to: "File" Menu -> "Import..." -> "Android" -> "Existing Android Code Into Workspace"
 
@@ -89,7 +101,7 @@ project that you import (including Attack of the Barbarians!). Duplicate symbols
 error in the conversion process from the JDK JVM code used on a PC/Mac to the Dalvik JVM code used by Android devices. If see a
 Dalvik conversion error, you may want to speak to me personally because fixing it goes beyond the scope of these instructions.
 
-For more information on the Dalvik error, see this link: http://stackoverflow.com/questions/2680827/conversion-to-dalvik-format-failed-with-error-1-on-external-jar
+For more information on the Dalvik error, see this link: <a href="http://stackoverflow.com/questions/2680827/conversion-to-dalvik-format-failed-with-error-1-on-external-jar">Conversion to Dalvik Format Failed with Error 1</a>
 
 Once you have AndEngine correctly imported into Eclipse, you may want to clean the project so that all the binaries are deleted
 and rebuilt. Highlight the projects in the Project Explorer and go to: "Project" Menu -> "Clean..." and check the boxes for the 
