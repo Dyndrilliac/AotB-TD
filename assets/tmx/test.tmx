@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert" tilewidth="32" tileheight="32">
+  <image source="tmw_desert_spacing.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="49" name="war1" tilewidth="32" tileheight="32" spacing="1">
+  <image source="war1.png" width="626" height="659"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBvFgxYzAjEzENczUsc8TiDmhpqHC1PbPF8gdkHCoXjsIsY8LyA2RMLBVDLPkWFwm0eMfwWBWBjNPFD4u0IxKOyjgDgcCUfjMA+XezygfgPhYBxqSMHUNi8Sh9/ogdmpaBYfEEsCsRgQS0BpEBZH4iOLiyGJiWNRKwPESUBcgURXIPGTiGQjYwBGUnCS
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+</map>
