@@ -66,7 +66,7 @@ Download/Install:
 
 [2. Android SDK, latest version.](https://developer.android.com/sdk/index.html)
 
-3. Android Developer Tools for Eclipse (Available for free from the Eclipse Marketplace inside Eclipse: "Help" Menu -> "Eclipse Marketplace...")
+[3. Android Developer Tools for Eclipse](http://developer.android.com/tools/index.html)
 
 [4. Some kind of Git client (EGit, GitHub, etcetera).](https://github.com/)
 
