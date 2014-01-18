@@ -1,18 +1,15 @@
-*******************************************
-Title:  Attack of the Barbarians
+*******************************************************************
 
-Author: [Matthew Boyette](mailto:Dyndrilliac@gmail.com)
+* Title:  Attack of the Barbarians
+* Author: [Matthew Boyette](mailto:Dyndrilliac@gmail.com)
+* Date:   12/4/2013
 
-Date:   12/4/2013
-*******************************************
+*******************************************************************
 
-Language: Java
-
-Platform/OS: Android
-
-Requirements: Android 2.2.0 Froyo or better, OpenGL ES 2.0 hardware support
-
-Tested Devices: Samsung Intercept (Android 2.2.3 Froyo), HTC Evo 3D (Android 4.0.3 Ice Cream Sandwich), Android Software Emulator (2.2.0 to 4.2.2)
+* Language: Java
+* Platform/OS: Android
+* Requirements: Android 2.2.0 Froyo or better, OpenGL ES 2.0 hardware support
+* Tested Devices: Samsung Intercept (Android 2.2.3 Froyo), HTC Evo 3D (Android 4.0.3 Ice Cream Sandwich), Android Software Emulator (2.2.0 to 4.2.2)
 
 Thank you for checking out Attack of the Barbarians!
 
@@ -62,21 +59,16 @@ The game is a relatively large project compared to most of the assignments to wh
 
 Download/Install:
 
-[1. Eclipse IDE, latest version.](http://www.eclipse.org)
-
-[2. Android SDK, latest version.](https://developer.android.com/sdk/index.html)
-
-[3. Android Developer Tools for Eclipse](http://developer.android.com/tools/index.html)
-
-[4. Some kind of Git client (EGit, GitHub, etcetera).](https://github.com/)
+1. [Eclipse IDE, latest version.](http://www.eclipse.org)
+2. [Android SDK, latest version.](https://developer.android.com/sdk/index.html)
+3. [Android Developer Tools for Eclipse](http://developer.android.com/tools/index.html)
+4. [Some kind of Git client (EGit, GitHub, etcetera).](https://github.com/)
 
 Once everything is downloaded and installed, clone the repositories for AndEngine and the two extensions I'm using from the links provided below.
 
-[AndEngine](https://github.com/nicolasgramlich/AndEngine)
-
-[PhysicsBox2D Extension](https://github.com/nicolasgramlich/AndEnginePhysicsBox2DExtension)
-
-[TMXTiledMap Extension](https://github.com/nicolasgramlich/AndEngineTMXTiledMapExtension)
+* [AndEngine](https://github.com/nicolasgramlich/AndEngine)
+* [PhysicsBox2D Extension](https://github.com/nicolasgramlich/AndEnginePhysicsBox2DExtension)
+* [TMXTiledMap Extension](https://github.com/nicolasgramlich/AndEngineTMXTiledMapExtension)
 
 Import them into Eclipse by going to: "File" Menu -> "Import..." -> "Android" -> "Existing Android Code Into Workspace"
 
