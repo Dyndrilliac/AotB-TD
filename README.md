@@ -55,7 +55,7 @@ The victory/loss transitions could use work.
 Build Instructions
 *******************************************
 
-The game is a relatively large project compared to most of the assignments to which undergrad students are accustomed. The first thing you need to do is make sure you have the following items installed, otherwise you WILL NOT be able to build the package from the source code! In order to save space and make the source code a fast download, most of the things you will need are not included in this ZIP archive!
+The game is a relatively large project. The first thing you need to do is make sure you have the following items installed, otherwise you WILL NOT be able to build the package from the source code!
 
 Download/Install:
 
