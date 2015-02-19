@@ -1,16 +1,22 @@
+
 package com.games.aotb;
 
 import org.andengine.entity.scene.Scene;
 
 public class PauseableScene extends Scene
 {
-	private boolean isPaused = false;
-	
+	private boolean	isPaused	= false;
+
+	public PauseableScene()
+	{
+		super();
+	}
+
 	public boolean isPaused()
 	{
 		return this.isPaused;
 	}
-	
+
 	@Override
 	protected void onManagedUpdate(final float secondsElapsed)
 	{
@@ -18,15 +24,10 @@ public class PauseableScene extends Scene
 		{
 			return;
 		}
-		
+
 		super.onManagedUpdate(secondsElapsed);
 	}
-	
-	public PauseableScene()
-	{
-		super();
-	}
-	
+
 	public void setPaused(final boolean isPaused)
 	{
 		this.isPaused = isPaused;
